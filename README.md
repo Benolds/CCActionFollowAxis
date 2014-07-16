@@ -1,10 +1,15 @@
 CCActionFollowAxis
 ==================
 
-A subclass of CCActionFollow which restricts the worldBoundary to a single axis, but allows for infinite following in the other axis (vertical or horizontal)
+A subclass of CCActionFollow which restricts the worldBoundary to a single axis, but allows for infinite following in the other axis (vertical or horizontal).
 
 It can be applied to any CCNode in an identical way that a CCActionFollow would be applied ([CCActionFollow Class Reference](http://www.cocos2d-iphone.org/docs/api/Classes/CCActionFollow.html)).
 
+
+Usage
+=====
+
+Include the ‘CCActionFollowAxisVertical’ and ‘CCActionFollowAxisHorizontal’ files in your project.
 
 
 CCActionFollowHorizontal
